@@ -12,6 +12,7 @@
 
 .content {
     margin-left: 40px;
+    margin-right: : 40px;
 }
 
 h1, h2, h3, h4 {
@@ -19,7 +20,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #00ff00;
+    color: #aaaaaa;
     font-weight: true;
 }
 
@@ -39,7 +40,13 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aaaaaa;
+	border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
 }
 
 .post h1 a, .post h1 a:visited {
